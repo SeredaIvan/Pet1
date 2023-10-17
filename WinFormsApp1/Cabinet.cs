@@ -29,6 +29,7 @@ namespace WinFormsApp1
 
             labelCostsInATM.Text = Convert.ToString(banks[0].GetIndexATM(banks[0].GetIndexer()).GetCostInATM());
             labelBankName.Text = Convert.ToString(banks[0].GetName());
+            label10.Text = labelBankName.Text;
             labelATMName.Text = Convert.ToString(banks[0].GetIndexATM(banks[0].GetIndexer()).GetAdress());
             labelPIB.Text = Convert.ToString(userATM.GetName());
             labelCostInCard.Text = Convert.ToString(userATM.GetCostInCard());

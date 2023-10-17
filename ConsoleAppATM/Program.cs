@@ -346,7 +346,7 @@ namespace ProgramLibraryATM
                     userATM=MinusCostInCard(userATM);
                     //Console.WriteLine($"class cost{userATM.GetCostInCard()}");
                     DBMySQL.ReloadDB(userATM);
-                    banks[0].GetIndexATM(banks[0].GetIndexer()).MinusCostInATM(userATM.GetLastOperation());
+                    banks[0].GetIndexATM(banks[0].GetIndexer()).MinusCostInATM(-userATM.GetLastOperation());
                     Console.ReadKey();
                     GoToCabinet(userATM, banks);
                     break;
