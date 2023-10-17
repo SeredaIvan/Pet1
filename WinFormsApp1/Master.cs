@@ -135,7 +135,8 @@ namespace WinFormsApp1
 
                 banks.RemoveAt(0);
             }
-            if (banks != null)
+            if (banks != null && comboBox1.SelectedItem != null && comboBox2.SelectedItem != null)
+
             {
                 Registration registration = new Registration(banks);
                 registration.Show();
@@ -160,9 +161,12 @@ namespace WinFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            LogIn login = new LogIn(banks);
-            this.Hide();
-            login.Show();
+            if (comboBox1.SelectedItem != null && comboBox2.SelectedItem != null)
+            {
+                LogIn login = new LogIn(banks);
+                this.Hide();
+                login.Show();
+            }
         }
     }
 }

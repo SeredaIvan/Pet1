@@ -54,6 +54,11 @@
             textBox3 = new TextBox();
             button5 = new Button();
             label8 = new Label();
+            panel1 = new Panel();
+            label10 = new Label();
+            panel2 = new Panel();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -61,7 +66,8 @@
             label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(510, 9);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(493, 13);
             label1.Name = "label1";
             label1.Size = new Size(340, 46);
             label1.TabIndex = 0;
@@ -144,7 +150,7 @@
             // buttonPerekazCost
             // 
             buttonPerekazCost.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonPerekazCost.Location = new Point(39, 342);
+            buttonPerekazCost.Location = new Point(14, 15);
             buttonPerekazCost.Name = "buttonPerekazCost";
             buttonPerekazCost.Size = new Size(365, 100);
             buttonPerekazCost.TabIndex = 7;
@@ -155,7 +161,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(39, 448);
+            button1.Location = new Point(14, 128);
             button1.Name = "button1";
             button1.Size = new Size(365, 100);
             button1.TabIndex = 8;
@@ -166,7 +172,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(39, 554);
+            button2.Location = new Point(14, 234);
             button2.Name = "button2";
             button2.Size = new Size(365, 100);
             button2.TabIndex = 9;
@@ -251,7 +257,7 @@
             labelNumberCardPerekaz.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             labelNumberCardPerekaz.AutoSize = true;
             labelNumberCardPerekaz.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            labelNumberCardPerekaz.Location = new Point(472, 342);
+            labelNumberCardPerekaz.Location = new Point(408, 15);
             labelNumberCardPerekaz.Margin = new Padding(30);
             labelNumberCardPerekaz.Name = "labelNumberCardPerekaz";
             labelNumberCardPerekaz.Size = new Size(150, 31);
@@ -264,7 +270,7 @@
             label9.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label9.Location = new Point(702, 342);
+            label9.Location = new Point(637, 15);
             label9.Margin = new Padding(30);
             label9.Name = "label9";
             label9.Size = new Size(62, 31);
@@ -275,7 +281,7 @@
             // textBoxNumberCardPerekaz
             // 
             textBoxNumberCardPerekaz.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxNumberCardPerekaz.Location = new Point(797, 339);
+            textBoxNumberCardPerekaz.Location = new Point(732, 15);
             textBoxNumberCardPerekaz.Name = "textBoxNumberCardPerekaz";
             textBoxNumberCardPerekaz.Size = new Size(309, 38);
             textBoxNumberCardPerekaz.TabIndex = 18;
@@ -287,9 +293,9 @@
             // button3
             // 
             button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(472, 383);
+            button3.Location = new Point(408, 51);
             button3.Name = "button3";
-            button3.Size = new Size(207, 38);
+            button3.Size = new Size(217, 38);
             button3.TabIndex = 19;
             button3.Text = "Переслати";
             button3.UseVisualStyleBackColor = true;
@@ -299,31 +305,29 @@
             // textBoxCostPerecaz
             // 
             textBoxCostPerecaz.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxCostPerecaz.Location = new Point(797, 383);
+            textBoxCostPerecaz.Location = new Point(732, 71);
             textBoxCostPerecaz.Name = "textBoxCostPerecaz";
             textBoxCostPerecaz.Size = new Size(309, 38);
             textBoxCostPerecaz.TabIndex = 20;
             textBoxCostPerecaz.Text = "Введіть суму переказу";
             textBoxCostPerecaz.Visible = false;
             textBoxCostPerecaz.MouseClick += textBoxCostPerecaz_MouseClick_1;
-            
             // 
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(472, 485);
+            textBox2.Location = new Point(408, 165);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(309, 38);
             textBox2.TabIndex = 25;
             textBox2.Text = "Введіть скільки хочете зняти";
             textBox2.Visible = false;
             textBox2.MouseClick += textBox2_MouseClick_1;
-            
             // 
             // button4
             // 
             button4.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(797, 485);
+            button4.Location = new Point(732, 165);
             button4.Name = "button4";
             button4.Size = new Size(309, 38);
             button4.TabIndex = 24;
@@ -335,7 +339,7 @@
             // textBox3
             // 
             textBox3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(472, 591);
+            textBox3.Location = new Point(408, 271);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(309, 38);
             textBox3.TabIndex = 26;
@@ -346,7 +350,7 @@
             // button5
             // 
             button5.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(797, 590);
+            button5.Location = new Point(732, 271);
             button5.Name = "button5";
             button5.Size = new Size(309, 38);
             button5.TabIndex = 27;
@@ -359,47 +363,85 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(472, 433);
+            label8.Location = new Point(408, 92);
             label8.Name = "label8";
             label8.Size = new Size(29, 31);
             label8.TabIndex = 28;
             label8.Text = "...";
             label8.Visible = false;
             // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.ForestGreen;
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(-1, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1263, 74);
+            panel1.TabIndex = 29;
+            // 
+            // label10
+            // 
+            label10.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.ForeColor = SystemColors.ButtonHighlight;
+            label10.Location = new Point(26, 23);
+            label10.Margin = new Padding(30);
+            label10.Name = "label10";
+            label10.Size = new Size(63, 31);
+            label10.TabIndex = 30;
+            label10.Text = "Банк";
+            // 
+            // panel2
+            // 
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel2.BackColor = Color.LightGreen;
+            panel2.Controls.Add(buttonPerekazCost);
+            panel2.Controls.Add(labelNumberCardPerekaz);
+            panel2.Controls.Add(button5);
+            panel2.Controls.Add(label8);
+            panel2.Controls.Add(textBox3);
+            panel2.Controls.Add(button3);
+            panel2.Controls.Add(button4);
+            panel2.Controls.Add(textBox2);
+            panel2.Controls.Add(label9);
+            panel2.Controls.Add(textBoxNumberCardPerekaz);
+            panel2.Controls.Add(textBoxCostPerecaz);
+            panel2.Controls.Add(button1);
+            panel2.Controls.Add(button2);
+            panel2.Location = new Point(25, 321);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1216, 340);
+            panel2.TabIndex = 30;
+            // 
             // Cabinet
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 673);
-            Controls.Add(label8);
-            Controls.Add(button5);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(button4);
-            Controls.Add(textBoxCostPerecaz);
-            Controls.Add(button3);
-            Controls.Add(textBoxNumberCardPerekaz);
-            Controls.Add(label9);
-            Controls.Add(labelNumberCardPerekaz);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             Controls.Add(labelCostsInATM);
             Controls.Add(label7);
             Controls.Add(label3);
             Controls.Add(labelATMName);
             Controls.Add(label6);
             Controls.Add(labelBankName);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(buttonPerekazCost);
             Controls.Add(labelCostInCard);
             Controls.Add(labelNumberCard);
             Controls.Add(labelPIB);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label2);
-            Controls.Add(label1);
             Name = "Cabinet";
             Text = "Cabinet";
             Load += Cabinet_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -432,5 +474,8 @@
         private TextBox textBox3;
         private Button button5;
         private Label label8;
+        private Panel panel1;
+        private Label label10;
+        private Panel panel2;
     }
 }

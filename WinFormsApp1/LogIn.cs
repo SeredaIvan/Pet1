@@ -59,7 +59,8 @@ namespace WinFormsApp1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             textBox1.BackColor = Color.White;
-            if (textBox1.Text.Length ==15) {
+            if (textBox1.Text.Length == 15)
+            {
                 if (IsCard(textBox1.Text))
                 {
 
@@ -68,7 +69,7 @@ namespace WinFormsApp1
                 {
                     textBox1.Text = "Карту введено не вірно";
                     textBox1.BackColor = Color.Red;
-                } 
+                }
             }
         }
         public static bool IsUser(string numbercard, string pin)

@@ -26,7 +26,7 @@ namespace WinFormsApp1
 
         private void Cabinet_Load(object sender, EventArgs e)
         {
-            
+
             labelCostsInATM.Text = Convert.ToString(banks[0].GetIndexATM(banks[0].GetIndexer()).GetCostInATM());
             labelBankName.Text = Convert.ToString(banks[0].GetName());
             labelATMName.Text = Convert.ToString(banks[0].GetIndexATM(banks[0].GetIndexer()).GetAdress());
@@ -65,10 +65,11 @@ namespace WinFormsApp1
             textBox2.Visible = true;
             button4.Visible = true;
         }
-        
+
         private void button3_Click(object sender, EventArgs e)
         {
-            if (textBoxNumberCardPerekaz.Text!=""&& textBoxCostPerecaz.Text!=""&&textBoxNumberCardPerekaz.Text!= "Введіть номер карти" && textBoxCostPerecaz.Text!= "Введіть суму переказу") {
+            if (textBoxNumberCardPerekaz.Text != "" && textBoxCostPerecaz.Text != "" && textBoxNumberCardPerekaz.Text != "Введіть номер карти" && textBoxCostPerecaz.Text != "Введіть суму переказу")
+            {
                 if (IsCard(textBoxNumberCardPerekaz.Text))
                 {
                     DialogResult result = MessageBox.Show("Підтвердити операцію", "Підтвердження", MessageBoxButtons.YesNo);
@@ -100,7 +101,7 @@ namespace WinFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text != ""&&textBox2.Text != "Введіть скільки хочете зняти")
+            if (textBox2.Text != "" && textBox2.Text != "Введіть скільки хочете зняти")
             {
                 DialogResult result = MessageBox.Show("Підтвердити операцію", "Підтвердження", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
@@ -130,7 +131,7 @@ namespace WinFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (textBox3.Text != ""&&textBox3.Text != "Введіть скільки хочете внести")
+            if (textBox3.Text != "" && textBox3.Text != "Введіть скільки хочете внести")
             {
                 DialogResult result = MessageBox.Show("Підтвердити операцію", "Підтвердження", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
@@ -177,7 +178,7 @@ namespace WinFormsApp1
                 textBoxNumberCardPerekaz.Text = "";
         }
 
-       
+
 
         private void textBoxCostPerecaz_MouseClick_1(object sender, MouseEventArgs e)
         {

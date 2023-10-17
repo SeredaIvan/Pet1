@@ -36,14 +36,17 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             button1 = new Button();
             button2 = new Button();
+            panel1 = new Panel();
             flowLayoutPanel1.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(60, 44);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(65, 32);
             label1.Name = "label1";
             label1.Size = new Size(329, 62);
             label1.TabIndex = 0;
@@ -65,7 +68,7 @@
             comboBox1.DisplayMember = "1";
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "ПриватБанк", "ОщадБанк" });
-            comboBox1.Location = new Point(60, 130);
+            comboBox1.Location = new Point(60, 112);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(329, 28);
             comboBox1.TabIndex = 0;
@@ -76,7 +79,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(60, 177);
+            label3.Location = new Point(60, 164);
             label3.Name = "label3";
             label3.Size = new Size(512, 46);
             label3.TabIndex = 2;
@@ -121,21 +124,33 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.ForestGreen;
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(-5, -1);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(601, 107);
+            panel1.TabIndex = 5;
+            // 
             // Master
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(592, 440);
+            Controls.Add(panel1);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(comboBox2);
             Controls.Add(label3);
             Controls.Add(comboBox1);
             Controls.Add(label2);
-            Controls.Add(label1);
             Name = "Master";
             Text = "Banking";
             Load += Master_Load;
             flowLayoutPanel1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -150,5 +165,6 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Button button1;
         private Button button2;
+        private Panel panel1;
     }
 }
