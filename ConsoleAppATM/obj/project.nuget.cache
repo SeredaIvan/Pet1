@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ejhd5Eto0wtNEmPk8vujV3FLZRf1H6YMef1qM82o9lqh+JHUNbGpBBQaakLWgJ8g9rnAPNJ+M1jxIdcBmFW2Qg==",
+  "dgSpecHash": "W+NAL/6qQUN/YhFGjKE7Oy40lWK1+Qihs8ksS/57eWiJolgnQMUA/FuGF+krk9oWGmU3OaoW7rVbtE44ACZWYw==",
   "success": true,
   "projectFilePath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\vanos\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\mysql.data\\8.1.0\\mysql.data.8.1.0.nupkg.sha512",
+    "C:\\Users\\vanos\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",

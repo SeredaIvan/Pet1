@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppATM", "ConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryATM", "ClassLibraryATM\ClassLibraryATM.csproj", "{244540B0-332C-4F67-BB1B-4F467E263384}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{7322E374-D063-4C1F-84A4-71FED640E723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{244540B0-332C-4F67-BB1B-4F467E263384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{244540B0-332C-4F67-BB1B-4F467E263384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{244540B0-332C-4F67-BB1B-4F467E263384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7322E374-D063-4C1F-84A4-71FED640E723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7322E374-D063-4C1F-84A4-71FED640E723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7322E374-D063-4C1F-84A4-71FED640E723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7322E374-D063-4C1F-84A4-71FED640E723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

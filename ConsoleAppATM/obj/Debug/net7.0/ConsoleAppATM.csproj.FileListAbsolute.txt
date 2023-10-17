@@ -40,3 +40,4 @@ C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ConsoleAppATM\obj\Debug\n
 C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ConsoleAppATM\obj\Debug\net7.0\ConsoleAppATM.pdb
 C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ConsoleAppATM\obj\Debug\net7.0\ConsoleAppATM.genruntimeconfig.cache
 C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ConsoleAppATM\obj\Debug\net7.0\ref\ConsoleAppATM.dll
+C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ConsoleAppATM\bin\Debug\net7.0\Newtonsoft.Json.dll
