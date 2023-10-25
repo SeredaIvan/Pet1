@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W+NAL/6qQUN/YhFGjKE7Oy40lWK1+Qihs8ksS/57eWiJolgnQMUA/FuGF+krk9oWGmU3OaoW7rVbtE44ACZWYw==",
+  "dgSpecHash": "FbO2Ig6Jo4vd9xhATZGx/J2BuvGTd2qVMjIgBF+GhxHER8VWhzehcyCHelZu6BwS3fFRgf+k2ERYW5a3cOksKQ==",
   "success": true,
-  "projectFilePath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj",
+  "projectFilePath": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanos\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

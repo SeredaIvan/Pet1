@@ -9,7 +9,7 @@ namespace ClassLibraryATM
 {
     public class DBMySQL
     {
-        string connectionString = "Server=localhost;Database=lab1db;User=root;Password=root;CharSet=utf8mb4;";
+        string connectionString = "Server=localhost;Database=dblab1;User=root;Password=root;CharSet=utf8mb4;";
 
         
         public void Send(string table, int id, string name, string phonenumber, string newnumbercard, string pin)
@@ -98,7 +98,7 @@ namespace ClassLibraryATM
         public int GetRowCount(string table)
         {
             int rowCount = 0;
-            string connectionString = "Server=localhost;Database=lab1db;User=root;Password=root;";
+            string connectionString = "Server=localhost;Database=dblab1;User=root;Password=root;";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -132,7 +132,7 @@ namespace ClassLibraryATM
             string pin = "";
             int costInCard = 0;
 
-            string connectionString = "Server=localhost;Database=lab1db;User=root;Password=root;";
+            string connectionString = "Server=localhost;Database=dblab1;User=root;Password=root;";
             if (id > 0)
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -215,7 +215,7 @@ namespace ClassLibraryATM
         {
             int id = -1; 
 
-            string connectionString = "Server=localhost;Database=lab1db;User=root;Password=root;";
+            string connectionString = "Server=localhost;Database=dblab1;User=root;Password=root;";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -259,7 +259,7 @@ namespace ClassLibraryATM
         }
         public static void ReloadDB(Account userATM)
         {
-            string connectionString = "Server=localhost;Database=lab1db;User=root;Password=root;";
+            string connectionString = "Server=localhost;Database=dblab1;User=root;Password=root;";
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
                 try

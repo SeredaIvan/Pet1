@@ -10,3 +10,15 @@ C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug
 C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\refint\ClassLibraryATM.dll
 C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.pdb
 C:\a_ZDTU\2Kurs\.Net Core\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ref\ClassLibraryATM.dll
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\bin\Debug\net7.0\ClassLibraryATM.deps.json
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\bin\Debug\net7.0\ClassLibraryATM.dll
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\bin\Debug\net7.0\ClassLibraryATM.pdb
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.csproj.AssemblyReference.cache
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.AssemblyInfoInputs.cache
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.AssemblyInfo.cs
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.csproj.CoreCompileInputs.cache
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.dll
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\refint\ClassLibraryATM.dll
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ClassLibraryATM.pdb
+C:\a_ZDTU\2Kurs\.NTCR\.Net_Core_Labaratorni\Lab_01\ClassLibraryATM\obj\Debug\net7.0\ref\ClassLibraryATM.dll

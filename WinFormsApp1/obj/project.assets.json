@@ -1865,11 +1865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\vanos\\.nuget\\packages\\",
-      "outputPath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1891,11 +1891,11 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\ClassLibraryATM\\ClassLibraryATM.csproj": {
-              "projectPath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\ClassLibraryATM\\ClassLibraryATM.csproj"
+            "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\ClassLibraryATM\\ClassLibraryATM.csproj": {
+              "projectPath": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\ClassLibraryATM\\ClassLibraryATM.csproj"
             },
-            "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj": {
-              "projectPath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj"
+            "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj": {
+              "projectPath": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\ConsoleAppATM\\ConsoleAppATM.csproj"
             }
           }
         }
@@ -1928,7 +1928,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

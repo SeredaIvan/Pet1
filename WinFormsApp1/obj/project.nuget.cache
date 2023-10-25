@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cii0JI1zX+LF6KO+OxAYcyTWNmJTqvYrpjrd0P/bUW6uC8fn9R3Q31PNt+BmSwhuzyPYvgO2APmNE/DlEs+bxA==",
+  "dgSpecHash": "gZ1s9Mgv+W2/ntO1Lr6aRXRcVbPR8YHXRM9r99RXN8aXYClEjZrN+pRhDsJiLq+7Aogslrxedlp/93ZHza9dGg==",
   "success": true,
-  "projectFilePath": "C:\\a_ZDTU\\2Kurs\\.Net Core\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\a_ZDTU\\2Kurs\\.NTCR\\.Net_Core_Labaratorni\\Lab_01\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vanos\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\vanos\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
